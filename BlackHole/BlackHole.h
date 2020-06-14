@@ -118,17 +118,17 @@ enum
 //    multiple devices were supported, this state would need to be encapsulated in one or more structs
 //    so that each object's state can be tracked individually.
 //    Note also that we share a single mutex across all objects to be thread safe for the same reason.
-#define                             kPlugIn_BundleID                    "audio.existential.BlackHole"
+#define                             kPlugIn_BundleID                    "audio.existential.BlackHole248"
 static pthread_mutex_t              gPlugIn_StateMutex                  = PTHREAD_MUTEX_INITIALIZER;
 static UInt32                       gPlugIn_RefCount                    = 0;
 static AudioServerPlugInHostRef     gPlugIn_Host                        = NULL;
 
-#define                             kBox_UID                            "BlackHole_UID"
+#define                             kBox_UID                            "BlackHole248_UID"
 static CFStringRef                  gBox_Name                           = NULL;
 static Boolean                      gBox_Acquired                       = true;
 
-#define                             kDevice_UID                         "BlackHole_UID"
-#define                             kDevice_ModelUID                    "BlackHole_ModelUID"
+#define                             kDevice_UID                         "BlackHole248_UID"
+#define                             kDevice_ModelUID                    "BlackHole248_ModelUID"
 static pthread_mutex_t              gDevice_IOMutex                     = PTHREAD_MUTEX_INITIALIZER;
 static Float64                      gDevice_SampleRate                  = 44100.0;
 static UInt64                       gDevice_IOIsRunning                 = 0;
@@ -150,9 +150,9 @@ static bool                         gMute_Input_Master_Value            = false;
 static bool                         gMute_Output_Master_Value           = false;
 
 static const UInt32                 kDataSource_NumberItems             = 1;
-#define                             kDataSource_ItemNamePattern         "BlackHole %ich"
+#define                             kDataSource_ItemNamePattern         "BlackHole248 %ich"
 
-#define                             DEVICE_NAME                         "BlackHole %ich"
+#define                             DEVICE_NAME                         "BlackHole248 %ich"
 #define                             MANUFACTURER_NAME                   "Existential Audio Inc."
 
 static UInt32                       gDataSource_Input_Master_Value      = 0;

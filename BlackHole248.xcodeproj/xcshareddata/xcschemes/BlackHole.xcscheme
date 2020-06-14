@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D7477A81578168D00412279"
-               BuildableName = "BlackHole.driver"
-               BlueprintName = "BlackHole"
-               ReferencedContainer = "container:BlackHole.xcodeproj">
+               BuildableName = "BlackHole248.driver"
+               BlueprintName = "BlackHole248"
+               ReferencedContainer = "container:BlackHole248.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D7477A81578168D00412279"
-            BuildableName = "BlackHole.driver"
-            BlueprintName = "BlackHole"
-            ReferencedContainer = "container:BlackHole.xcodeproj">
+            BuildableName = "BlackHole248.driver"
+            BlueprintName = "BlackHole248"
+            ReferencedContainer = "container:BlackHole248.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -60,9 +60,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D7477A81578168D00412279"
-            BuildableName = "BlackHole.driver"
-            BlueprintName = "BlackHole"
-            ReferencedContainer = "container:BlackHole.xcodeproj">
+            BuildableName = "BlackHole248.driver"
+            BlueprintName = "BlackHole248"
+            ReferencedContainer = "container:BlackHole248.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
